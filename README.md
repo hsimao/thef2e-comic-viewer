@@ -1,21 +1,10 @@
-# thef2e-comic-viewer
+# 漫畫閱讀器 Comic Viewer - The F2E 前端修練精神時光屋 第五週
 
-> A Vue.js project
+### live demo https://hsimao.github.io/filter/
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 練習技能
+1. json-server
+2. eslint(Standard)
+3. sass
+4. component
+5. scroll-position
