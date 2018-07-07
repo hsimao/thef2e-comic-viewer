@@ -1,0 +1,25 @@
+// color
+$primary: #50FF44
+$black: #222
+$white: #fff
+$baseLine: 10px
+
+%clearGutter
+  margin: 0
+  padding: 0
+
+// 幾行設定, 2行  =>  10 * 2 ,rhythm(2)
+@function rhythm($level)
+  @return $baseLine * ceil($level)
+
+// 計算行高 line-height,搭配 @mixin font使用來計算行高
+@function line($size)
+  @return rhythm($size * 1.2 / $baseLine)
+
+@mixin font($size, $line-height: auto)
+  $line: line($size)
+  font-size: $size
+  @if $line-height == auto or $line-height < $line
+    line-height: $line
+  @else
+    line-height: $line-height
