@@ -1,0 +1,2 @@
+webpackJsonp([2],{pr4A:function(e,t){},riur:function(e,t,i){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"comicDetail"},[this._v("\r\n  ComicDetail\r\n")])},staticRenderFns:[]};var r=i("VU/8")({name:"comicDetail"},n,!1,function(e){i("pr4A")},"data-v-0968494d",null);t.default=r.exports}});
+//# sourceMappingURL=2.4e3611d723be70625291.js.map

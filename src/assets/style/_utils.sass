@@ -13,6 +13,10 @@ $baseLine: 10px
   @return $baseLine * ceil($level)
 
 // 計算行高 line-height,搭配 @mixin font使用來計算行高
+// line-height 以10為基準增加, 如果font-size * 1.2 超過10得倍數就直接往上+10
+// font-size 14  => 14 * 1.2 = 16.8 => 20 line-height
+// font-size 18  => 18 * 1.2 = 21.6 => 30 line-height
+// 使用 +font(16px)  or  +font(20px, 60px)
 @function line($size)
   @return rhythm($size * 1.2 / $baseLine)
 

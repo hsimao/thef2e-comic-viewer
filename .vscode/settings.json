@@ -19,8 +19,4 @@
   "prettier.singleQuote": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "blueprint.templatesPath": [
-    "../blueprint-templates",
-    "./.vscode/blueprint-templates"
-  ],
 }

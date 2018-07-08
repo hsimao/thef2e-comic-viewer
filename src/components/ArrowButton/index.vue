@@ -1,6 +1,12 @@
 <script>
 export default {
-  name: '{{ camelCase name }}'
+  name: 'arrowButton',
+  props: {
+    direction: {
+      type: String,
+      default: 'left'
+    }
+  }
 }
 </script>
 

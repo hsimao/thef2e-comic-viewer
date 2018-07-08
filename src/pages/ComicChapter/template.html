@@ -1,0 +1,14 @@
+<div class="comicChapter">
+  <div class="view" v-if="pages.length">
+    <ArrowButton class="prev"
+                  @click.prevent.native="prevHandler" />
+    <ImageArea :src="src" />
+    <ArrowButton :direction="'right'"
+                  class="next"
+                  @click.prevent.native="nextHandler" />
+  </div>
+  <ChapterThumb :page.sync="page"
+                :pages="pages"
+                :prevPage="prevPage"
+                :nextPage="nextPage"/>
+</div>

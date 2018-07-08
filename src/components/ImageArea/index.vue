@@ -1,6 +1,12 @@
 <script>
 export default {
-  name: '{{ camelCase name }}'
+  name: 'imageArea',
+  props: {
+    src: {
+      type: String,
+      required: true
+    }
+  }
 }
 </script>
 

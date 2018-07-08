@@ -1,6 +1,11 @@
 <script>
 export default {
-  name: '{{ camelCase name }}'
+  name: 'pageFooter',
+  data() {
+    return {
+      hello: false
+    }
+  }
 }
 </script>
 

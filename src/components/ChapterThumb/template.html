@@ -1,0 +1,24 @@
+<div class="chapterThumb">
+  <ul>
+    <li class="cBtn"
+        v-if="prevPage">
+      <router-link :to="prevPage"
+                    replace>
+        <span>上一話</span>
+      </router-link>
+    </li>
+    <li v-for="(item,index) in pages"
+        :class="{active:index == page}">
+      <a href="javascript:;"
+          :style="{backgroundImage:'url('+item+')'}"
+          @click="clickHandler(index)"></a>
+    </li>
+    <li class="cBtn"
+        v-if="nextPage">
+      <router-link :to="nextPage"
+                    replace>
+        <span>下一話</span>
+      </router-link>
+    </li>
+  </ul>
+</div>
