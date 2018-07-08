@@ -1,2 +1,0 @@
-webpackJsonp([1],{H3uu:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var s={render:function(){this.$createElement;this._self._c;return this._m(0)},staticRenderFns:[function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"comics"},[this._v("\r\n  Comics\r\n  "),e("ul",[e("li")])])}]};var i=n("VU/8")({name:"comics"},s,!1,function(t){n("tfsk")},"data-v-314e9511",null);e.default=i.exports},tfsk:function(t,e){}});
-//# sourceMappingURL=1.2097b490e63c7029f996.js.map

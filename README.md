@@ -1,6 +1,6 @@
 # 漫畫閱讀器 Comic Viewer - The F2E 前端修練精神時光屋 第五週
 
-### live demo https://hsimao.github.io/thef2e-comic-viewer/
+### live demo https://hsimao.github.io/Comic-Viewer-demo/
 
 ### 練習技能
 1. json-server
